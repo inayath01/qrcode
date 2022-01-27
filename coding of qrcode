@@ -1,0 +1,4 @@
+import qrcode
+img = qrcode.make('https://github.com/login')
+img.save('myqrcode.png')
+img.show()
